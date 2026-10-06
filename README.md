@@ -1,7 +1,8 @@
-# Innovative Driven Hiring | Frontend Engineer Technical Challenges
+## Innovative Driven Hiring
+# Frontend Engineer Technical Challenges
 
 ## Approaches
-* review a PR that has a number of small flaws / code quality issues (no AI)
+* **Review a PR that has a number of small flaws / code quality issues (no AI)**
   - first walk through repo, have candidate clone it (or even provide them the repo well in advance as study material)
   - during interview, review PR together. maybe even run it locally/test it
   - potential PR issues:
@@ -17,7 +18,7 @@
       - floats
       - brittle selectors
       - generic selectors with non-generic changes (IE: h1 { color: hotpink; } kinda stuff)
-* pair programming challenge for much larger project, see how far we get (AI allowed)
+* **Pair programming challenge for much larger project, see how far we get (AI allowed)**
   - extend the AccessID TaskView fake product
   - do a planning session for a new feature that extends an existing, complex feature, but dont implement the feature, just analyze the plan. maybe start from a slightly flawed plan? plan flaws similar to PR flaws, just not yet code
   - potential features to dev:
@@ -27,7 +28,7 @@
     - new form
     - new data vis / report
     - responsive behavior
-* maybe do 30m of one, and 30m of another?
+* **maybe do 30m of one, and 30m of another**
 
 
 ## Test App - AccessID TaskView (fake product)
