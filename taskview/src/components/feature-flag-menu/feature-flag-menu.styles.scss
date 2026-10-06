@@ -1,0 +1,12 @@
+.feature-flag-menu {
+  &__item {
+    gap: 16px;
+    min-width: 320px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px 0;
+  }
+}

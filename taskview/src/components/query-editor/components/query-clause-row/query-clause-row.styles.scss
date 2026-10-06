@@ -1,0 +1,17 @@
+.query-clause-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__field {
+    width: 160px;
+  }
+
+  &__operator {
+    width: 170px;
+  }
+
+  &__value {
+    width: 240px;
+  }
+}

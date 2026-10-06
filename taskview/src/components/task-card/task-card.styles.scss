@@ -1,0 +1,47 @@
+.task-card {
+  flex-shrink: 0;
+
+  &--overlay {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    cursor: grabbing;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  &__meta,
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-weight: 500;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  &__tag {
+    padding: 1px 6px;
+    font-size: 11px;
+    color: #37474f;
+    background-color: #eceff1;
+    border-radius: 4px;
+  }
+
+  &__avatar {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+}

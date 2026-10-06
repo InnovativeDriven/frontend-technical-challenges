@@ -1,0 +1,11 @@
+.query-page {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+
+  &__results {
+    flex: 1;
+    min-height: 0;
+  }
+}

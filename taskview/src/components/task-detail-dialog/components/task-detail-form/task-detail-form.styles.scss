@@ -1,0 +1,14 @@
+.task-detail-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &.MuiDialogContent-root {
+    padding-top: 8px;
+  }
+
+  &__row {
+    display: flex;
+    gap: 16px;
+  }
+}

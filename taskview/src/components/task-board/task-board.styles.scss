@@ -1,0 +1,7 @@
+.task-board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(240px, 1fr));
+  gap: 16px;
+  height: 100%;
+  overflow-x: auto;
+}

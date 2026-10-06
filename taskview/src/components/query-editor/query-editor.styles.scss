@@ -1,0 +1,23 @@
+.query-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+
+  &__header,
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__clauses {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__spacer {
+    flex: 1;
+  }
+}
