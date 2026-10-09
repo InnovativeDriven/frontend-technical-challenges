@@ -1,11 +1,16 @@
 ## Innovative Driven Hiring
 # Frontend Engineer Technical Challenges
 
-## Approaches
+## Technical Interview Approaches
 * **Review a PR that has a number of small flaws / code quality issues (no AI)**
   - first walk through repo, have candidate clone it (or even provide them the repo well in advance as study material)
   - during interview, review PR together. maybe even run it locally/test it
   - potential PR issues:
+    - overly complex code
+    - overly rigid/brittle code
+    - too tightly coupled/untestable
+    - meaningless tests
+    - appears to work but doesnt actually work
     - doesnt belong syntax - dissimilar from surrounding code
     - hardcoded obviously sensitive data in repos
     - redux toolkit issues wrt slice & selectors
@@ -30,6 +35,9 @@
     - responsive behavior
 * **maybe do 30m of one, and 30m of another**
 
+## Running the Interview
+* take repo private when not hiring, make public when technical interviews are happening
+* 
 
 ## Test App - AccessID TaskView (fake product)
 - need a generic react/redux program to build off of. maybe a basic kanban board w/ feature flags
