@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
+import drawer from './ducks/drawer/drawer.slice';
 import featureFlags from './ducks/feature-flags/feature-flags.slice';
 import query from './ducks/query/query.slice';
 import tasks from './ducks/tasks/tasks.slice';
@@ -10,7 +11,8 @@ export const store = configureStore({
     tasks,
     users,
     query,
-    featureFlags
+    featureFlags,
+    drawer
   }
 });
 

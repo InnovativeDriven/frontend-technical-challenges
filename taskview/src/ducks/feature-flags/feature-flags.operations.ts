@@ -13,6 +13,11 @@ export const FEATURE_FLAGS = {
     label: 'WIP limits',
     description: 'Highlights board columns over their work-in-progress limit',
     defaultValue: false
+  },
+  taskDrawer: {
+    label: 'Task drawer',
+    description: 'Opens board tasks in a side drawer instead of a dialog',
+    defaultValue: true
   }
 } as const;
 
