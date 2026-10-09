@@ -1,0 +1,71 @@
+h1 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #1f4e79 !important;
+}
+
+.MuiDrawer-paper {
+  width: 480px !important;
+  padding: 16px !important;
+  z-index: 99999 !important;
+  background-color: #ffffff !important;
+}
+
+.task-drawer {
+  > div > div:nth-child(1) > div:first-child {
+    overflow: hidden;
+  }
+
+  &__header {
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+
+    h1 {
+      float: left;
+      line-height: 34px !important;
+    }
+
+    button {
+      float: right !important;
+    }
+  }
+
+  &__due {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 12px !important;
+    color: #e07a1f !important;
+  }
+
+  &__preview {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 16px;
+    pointer-events: none;
+  }
+
+  &__form {
+    float: left;
+    clear: both;
+    width: 100%;
+
+    .MuiDialogContent-root {
+      padding: 0 !important;
+      overflow: visible !important;
+    }
+
+    .MuiDialogActions-root {
+      padding: 16px 0 0 0 !important;
+    }
+  }
+
+  .compact {
+    .task-detail-form__row {
+      flex-direction: column !important;
+    }
+  }
+}
